@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F2009" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xrP-xH-bP5">
+                                <rect key="frame" x="227" y="28" width="94" height="21"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jaP-4V-N3F">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="714-Dl-VF6">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="67H-Dc-7Mp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7TT-eC-06f">
+                                                                <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ElU-gI-83W">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dFm-GM-QWF">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                                                                <subviews>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hello World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7L-7H-Gh3">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="94" height="21"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                        <nil key="highlightedColor"/>
+                                                                                    </label>
+                                                                                </subviews>
+                                                                            </stackView>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="ElU-gI-83W" firstAttribute="centerX" secondItem="7TT-eC-06f" secondAttribute="centerX" id="4no-4o-LpW"/>
+                                                                    <constraint firstItem="ElU-gI-83W" firstAttribute="centerY" secondItem="7TT-eC-06f" secondAttribute="centerY" id="7aE-6B-qhT"/>
+                                                                    <constraint firstItem="ElU-gI-83W" firstAttribute="top" secondItem="7TT-eC-06f" secondAttribute="top" constant="20" id="KZS-ZR-REq"/>
+                                                                    <constraint firstItem="ElU-gI-83W" firstAttribute="leading" secondItem="7TT-eC-06f" secondAttribute="leading" constant="10" id="Yvl-kQ-cOi"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="7TT-eC-06f" firstAttribute="centerX" secondItem="67H-Dc-7Mp" secondAttribute="centerX" id="UQV-Vf-R3i"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jaP-4V-N3F" firstAttribute="centerX" secondItem="xrP-xH-bP5" secondAttribute="centerX" id="bHy-tG-fUz"/>
+                                    <constraint firstItem="jaP-4V-N3F" firstAttribute="centerX" secondItem="xrP-xH-bP5" secondAttribute="centerX" id="ydQ-w5-E4F"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="theLabel" destination="l7L-7H-Gh3" id="E0A-cA-mtw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
